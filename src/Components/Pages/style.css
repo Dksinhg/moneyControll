@@ -986,9 +986,13 @@ Services pages
  
 }
 .Sub2_seervercard{
-    float: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    /* float: left;
     margin: 10px;
-    border: 1px solid red;
+    border: 1px solid red; */
 }
 
 .Sub_servicesCard{
@@ -1014,11 +1018,12 @@ Services pages
         border: 2px solid red;
     }
     .servercard{
-      
+        position: relative;
+        left: 40px;
        /* display: flex;
        flex-wrap:wrap;
         border: 1px solid red; */
-        float: left;
+        /* float: left; */
       }
       
       .Sub_servicesCard{
@@ -1039,5 +1044,63 @@ Services pages
 /* Extra large devices (high resolution monitors) */
 
 @media screen and (min-width: 1199px) {
+    .Sub_servicesCard {
+        max-width: 470px;
+        width: 100%;
+        padding: 10px;
+    }
+    .Sub_servicesCard img{
+        width: 100%;
+    }
 
+    .Sub2_seervercard {
+        /* width: 470px; */
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+}
+
+
+
+.me-auto.navbar-nav {
+    position: relative;
+    left: 248px;
+    display: flex;
+    /* border: 1px solid; */
+    justify-content: center;
+
+}
+a{
+    text-decoration: none;
+}
+
+
+
+
+
+
+.card {
+    padding: 0px 150px;
+    display: grid;
+    gap: 25px;
+    grid-template-columns: 4fr 4fr 4fr;
+    /* justify-content: center; */
+    position: relative;
+
+}
+
+
+.sub_card {
+    max-width: 500px;
+    height: 30vh;
+    width: 100%;
+    position: relative;
+    left: 40px;
+    top: -90px;
+    border-bottom: 4px solid #103B70;
+    background: #ffff;
+    border-radius: 5px;
+    box-shadow: inset 0px 5px 5px 0px #fff;
+    /* text-decoration: underline; */
 }

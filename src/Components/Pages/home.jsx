@@ -25,19 +25,30 @@ const home = () => {
 
       <section className="card">
         <div className="sub_card">
-          <span>ican</span>
-          <h2>Rs. 50.000</h2>
-          <p>minimun</p>
+          <div>
+            <div>
+              <span>ican</span>
+              <h2>Rs. 50.000</h2>
+              <p>minimun</p>
+            </div>
+          </div>
         </div>
         <div className="sub_card">
-          <span>ican</span>
-          <h2> 1000+</h2>
-          <p>investor community</p>
+          <div>
+            <div>
+              <span>ican</span>
+              <h2> 1000+</h2>
+              <p>investor community</p>
+            </div>
+          </div>
         </div>
         <div className="sub_card">
-          <span>ican</span>
-          <h2>7+</h2>
-          <p>Year of experience </p>
+          <div>
+            <div></div>
+            <span>ican</span>
+            <h2>7+</h2>
+            <p>Year of experience </p>
+          </div>
         </div>
       </section>
 
