@@ -1,0 +1,1043 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+
+
+/* <==============>
+home components 
+<============> */
+
+/* Extra small Device (Mobile Phone) */
+@media screen and (max-width: 575px) {
+    .carousel {
+        background-image: url("../../Assest/img/home-banner-2.webp");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        width: 200%;
+        height: 90vh;
+
+    }
+
+    .carousel h1 {
+        color: white;
+        font-size: 80px;
+        padding-top: 10%;
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+
+    .carousel p {
+        color: white;
+        padding-top: 2%;
+        padding-left: 10%;
+        padding-right: 10%;
+        font-size: 15px;
+        font-weight: 400;
+    }
+
+    .carousel_button {
+        padding-top: 2%;
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+
+    .carousel_button button {
+        border: none;
+        padding: 15px;
+        width: 30%;
+        background-color: #040E1A;
+        color: white;
+    }
+
+    .carousel_button button:hover {
+        background-color: yellow;
+        color: #040E1A;
+    }
+}
+
+/* Small Devices (Tablets and Smaller Laptops) */
+
+@media screen and (min-width:576px) and (max-width:991px) {
+    .carousel {
+        background-image: url("../../Assest/img/home-banner-2.webp");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        /* width: 100%; */
+        height: 90vh;
+    }
+
+    .carousel h1 {
+        color: white;
+        font-size: 80px;
+        padding-top: 10%;
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+
+    .carousel p {
+        color: white;
+        padding-top: 2%;
+        padding-left: 10%;
+        padding-right: 10%;
+        font-size: 15px;
+        font-weight: 400;
+    }
+
+    .carousel_button {
+        padding-top: 2%;
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+
+    .carousel_button button {
+        border: none;
+        padding: 15px;
+        width: 30%;
+        background-color: #040E1A;
+        color: white;
+    }
+
+    .carousel_button button:hover {
+        background-color: yellow;
+        color: #040E1A;
+    }
+}
+
+/* large Devices (Destops) */
+@media screen and (min-width:992px) and (max-width:1199px) {
+    .carousel {
+        background-image: url("../../Assest/img/home-banner-2.webp");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 90vh;
+    }
+
+    .carousel h1 {
+        color: white;
+        font-size: 80px;
+        padding-top: 10%;
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+
+    .carousel p {
+        color: white;
+        padding-top: 2%;
+        padding-left: 10%;
+        padding-right: 10%;
+        font-size: 15px;
+        font-weight: 400;
+    }
+
+    .carousel_button {
+        padding-top: 2%;
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+
+    .carousel_button button {
+        border: none;
+        padding: 15px;
+        width: 30%;
+        background-color: #040E1A;
+        color: white;
+    }
+
+    .carousel_button button:hover {
+        background-color: yellow;
+        color: #040E1A;
+    }
+}
+
+/* Extra large devices (high resolution monitors) */
+
+@media screen and (min-width: 1199px) {
+    .carousel {
+        background-image: url("../../Assest/img/home-banner-2.webp");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 90vh;
+    }
+
+    .carousel h1 {
+        color: white;
+        font-size: 80px;
+        padding-top: 10%;
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+
+    .carousel p {
+        color: white;
+        padding-top: 2%;
+        padding-left: 10%;
+        padding-right: 10%;
+        font-size: 15px;
+        font-weight: 400;
+    }
+
+    .carousel_button {
+        padding-top: 2%;
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+
+    .carousel_button button {
+        border: none;
+        padding: 15px;
+        width: 30%;
+        background-color: #040E1A;
+        color: white;
+    }
+
+    .carousel_button button:hover {
+        background-color: yellow;
+        color: #040E1A;
+    }
+}
+
+
+/* <================> 
+Aboout Pages  
+<=================> */
+
+
+/* Extra small Device (Mobile Phone) */
+@media screen and (max-width: 575px) {
+    .about {
+        padding: 10px;
+        margin: 10px;
+    }
+
+    .aboutus {
+        padding-top: 30px;
+        width: 100%;
+        /* border: 2px solid red; */
+    }
+
+    .aboutus img {
+        border-radius: 10px;
+        width: 100%;
+        border: 1px solid white;
+    }
+
+    .aboutus .About {
+        font-size: 18px;
+        font-weight: 700;
+        font-style: normal;
+        color: goldenrod;
+    }
+
+    .aboutus .ourpurpose {
+        font-size: 20px;
+        font-weight: bold;
+        line-height: 30px;
+    }
+
+    .desc {
+        font-size: 18px;
+        font-weight: 400;
+        font-style: initial;
+    }
+
+    .aboutus button {
+        margin-top: 20px;
+        padding: 10px;
+        width: 40%;
+        font-size: 19px;
+        font-weight: 400;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serifS;
+        border: none;
+        background-color: #040E1A;
+        color: white;
+    }
+}
+
+/* Small Devices (Tablets and Smaller Laptops) */
+
+@media screen and (min-width:576px) and (max-width:991px) {
+    .about {
+        padding: 10px;
+        margin: 10px;
+        display: flex;
+    }
+
+    .aboutus {
+        margin: 20px;
+        width: 50%;
+        /* border: 2px solid red; */
+    }
+
+    .aboutus img {
+        border-radius: 10px;
+        width: 100%;
+        border: 1px solid white;
+    }
+
+    .aboutus .About {
+        font-size: 18px;
+        font-weight: 700;
+        font-style: normal;
+        color: goldenrod;
+    }
+
+    .aboutus .ourpurpose {
+        font-size: 20px;
+        font-weight: bold;
+        line-height: 30px;
+    }
+
+    .desc {
+        font-size: 18px;
+        font-weight: 400;
+        font-style: initial;
+    }
+
+    .aboutus button {
+        margin-top: 20px;
+        padding: 10px;
+        width: 40%;
+        font-size: 19px;
+        font-weight: 400;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serifS;
+        border: none;
+        background-color: #040E1A;
+        color: white;
+    }
+}
+
+/* large Devices (Destops) */
+@media screen and (min-width:992px) and (max-width:1199px) {
+    .about {
+        padding: 10px;
+        margin: 10px;
+        display: flex;
+    }
+
+    .aboutus {
+        margin: 20px;
+        width: 50%;
+        /* border: 2px solid red; */
+    }
+
+    .aboutus img {
+        border-radius: 10px;
+        width: 100%;
+        border: 1px solid white;
+    }
+
+    .aboutus .About {
+        font-size: 18px;
+        font-weight: 700;
+        font-style: normal;
+        color: goldenrod;
+    }
+
+    .aboutus .ourpurpose {
+        font-size: 20px;
+        font-weight: bold;
+        line-height: 30px;
+    }
+
+    .desc {
+        font-size: 18px;
+        font-weight: 400;
+        font-style: initial;
+    }
+
+    .aboutus button {
+        margin-top: 20px;
+        padding: 10px;
+        width: 40%;
+        font-size: 19px;
+        font-weight: 400;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serifS;
+        border: none;
+        background-color: #040E1A;
+        color: white;
+    }
+
+}
+
+/* Extra large devices (high resolution monitors) */
+
+@media screen and (min-width: 1199px) {
+    .about {
+        padding: 10px;
+        margin: 10px;
+        display: flex;
+    }
+
+    .aboutus {
+        margin: 40px;
+        width: 50%;
+        /* border: 2px solid red; */
+    }
+
+    .aboutus img {
+        border-radius: 10px;
+        width: 100%;
+        border: 1px solid white;
+    }
+
+    .aboutus .About {
+        font-size: 25px;
+        font-weight: 700;
+        font-style: normal;
+        color: goldenrod;
+    }
+
+    .aboutus .ourpurpose {
+        padding-top: 20px;
+        font-size: 40px;
+        font-weight: bold;
+        line-height: 30px;
+    }
+
+    .desc {
+        /* border: 2px solid red; */
+        padding-top: 30px;
+        padding-right: 25px;
+        font-size: 25px;
+        font-weight: 400;
+        font-style: initial;
+    }
+
+    .aboutus button {
+        margin-top: 20px;
+        padding: 10px;
+        width: 40%;
+        font-size: 19px;
+        font-weight: 400;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serifS;
+        border: none;
+        background-color: #040E1A;
+        color: white;
+    }
+}
+
+/* <==============>  
+Services pages 
+<========> */
+
+/* Extra small Device (Mobile Phone) */
+@media screen and (max-width: 575px) {
+    .services {
+        padding: 10px;
+        /* border: 1px solid red; */
+    }
+
+    .card_services {
+        /* padding: 10px; */
+        margin-top: 30px;
+        margin-left: 10px;
+        margin-right: 10px;
+        width: 100%;
+        /* border: 1px solid red; */
+    }
+
+    .card_services h1 {
+        font-size: 60px;
+        font-weight: 700;
+        font-style: inherit;
+        color: black;
+    }
+
+    .card_services #desc {
+        font-size: 18px;
+        padding: 5px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+
+    .subCard_services {
+        padding: 5px;
+        /* border: 1px solid red; */
+    }
+
+    .subcard_details {
+        /* border: 1px solid red; */
+        margin: 10px;
+        border: 1px solid whitesmoke;
+        box-shadow: 5px 5px 10px lightblue;
+        border-radius: 10px;
+        padding: 10px;
+        display: flex;
+    }
+
+    .subcard_details .desc_ican {
+        /* border: 1px solid red; */
+        font-size: 30px;
+        width: 10%;
+    }
+
+    .subcard_desc {
+        padding: 7px;
+        /* border: 1px solid red; */
+    }
+
+    .subcard_desc h4,
+    #descp {
+        padding: 7px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+    }
+
+    .card_services img {
+        padding: 30px;
+        width: 100%;
+        height: 80vh;
+    }
+}
+
+/* Small Devices (Tablets and Smaller Laptops) */
+
+@media screen and (min-width:576px) and (max-width:991px) {
+    .services {
+        padding: 10px;
+        /* border: 1px solid red; */
+    }
+
+    .card_services {
+        /* padding: 10px; */
+        margin-top: 30px;
+        margin-left: 10px;
+        margin-right: 10px;
+        width: 100%;
+        /* border: 1px solid red; */
+    }
+
+    .card_services h1 {
+        font-size: 60px;
+        font-weight: 700;
+        font-style: inherit;
+        color: black;
+    }
+
+    .card_services #desc {
+        font-size: 18px;
+        padding: 5px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+
+    .subCard_services {
+        padding: 5px;
+        /* border: 1px solid red; */
+    }
+
+    .subcard_details {
+        /* border: 1px solid red; */
+        margin: 10px;
+        border: 1px solid whitesmoke;
+        box-shadow: 5px 5px 10px lightblue;
+        border-radius: 10px;
+        padding: 10px;
+        display: flex;
+    }
+
+    .subcard_details .desc_ican {
+        /* border: 1px solid red; */
+        font-size: 30px;
+        width: 10%;
+    }
+
+    .subcard_desc {
+        padding: 7px;
+        /* border: 1px solid red; */
+    }
+
+    .subcard_desc h4,
+    #descp {
+        padding: 7px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+    }
+
+    .card_services img {
+        padding: 30px;
+        width: 95%;
+        height: 80vh;
+    }
+}
+
+/* large Devices (Destops) */
+@media screen and (min-width:992px) and (max-width:1199px) {
+    .services {
+        display: flex;
+    }
+
+    .card_services {
+        padding: 10px;
+        margin: 20px;
+        width: 50%;
+        /* border: 1px solid red; */
+    }
+
+    .card_services h1 {
+        font-size: 60px;
+        font-weight: 700;
+        font-style: inherit;
+        color: black;
+    }
+
+    .card_services #desc {
+        font-size: 18px;
+        padding: 5px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+
+    .subCard_services {
+        padding: 5px;
+    }
+
+    .subcard_details {
+        margin: 10px;
+        border: 1px solid whitesmoke;
+        box-shadow: 5px 5px 10px lightblue;
+        border-radius: 10px;
+        padding: 10px;
+        display: flex;
+    }
+
+    .subcard_details .desc_ican {
+        /* border: 1px solid red; */
+        font-size: 30px;
+        width: 50%;
+    }
+
+    .subcard_desc {
+        padding: 7px;
+        /* border: 1px solid red; */
+    }
+
+    .subcard_desc h4,
+    #descp {
+        padding: 7px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+            /* border: 1px solid red; */
+    }
+
+    .card_services img {
+        padding-top: 50%;
+        width: 100%;
+    }
+}
+
+/* Extra large devices (high resolution monitors) */
+
+@media screen and (min-width: 1199px) {
+    .services {
+        padding: 10px;
+        display: flex;
+    }
+
+    .card_services {
+        padding: 10px;
+        margin: 20px;
+        width: 50%;
+        /* border: 1px solid red; */
+    }
+
+    .card_services h1 {
+        font-size: 60px;
+        font-weight: 700;
+        font-style: inherit;
+        color: black;
+    }
+
+    .card_services #desc {
+        font-size: 18px;
+        padding: 5px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+
+    .subCard_services {
+        padding: 5px;
+    }
+
+    .subcard_details {
+        margin: 10px;
+        border: 1px solid whitesmoke;
+        box-shadow: 5px 5px 10px lightblue;
+        border-radius: 10px;
+        padding: 10px;
+        display: flex;
+    }
+
+    .subcard_details .desc_ican {
+        /* border: 1px solid red; */
+        font-size: 30px;
+        width: 30%;
+    }
+
+    .subcard_desc {
+        /* padding: 7px; */
+        /* border: 1px solid red; */
+    }
+
+    .subcard_desc h4,
+    #descp {
+        /* padding: 7px; */
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+            /* border: 1px solid red; */
+    }
+
+    .card_services img {
+        /* border: 1px solid red; */
+        width: 90%;
+        height: 90vh;
+    }
+}
+
+
+/* <========>
+    wordmap 
+<===========>*/
+/* Extra small Device (Mobile Phone) */
+@media screen and (max-width: 575px) {
+    .wordmap {
+        background-image: url("../../Assest//img/map.png");
+        background-color: #f2f2f2;
+        padding-top: 10%;
+        padding-bottom: 10%;
+
+        /* border: 1px solid red; */
+    }
+
+    .heading h1 {
+        text-align: center;
+        font-size: 50px;
+        font-weight: 700;
+        font-style:initial;
+        font-family:'Times New Roman', Times, serif;
+        color: rgba(72, 72, 211, 0.981);
+    }
+   .heading p{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 800;
+    font-style:initial;
+    font-family:'Times New Roman', Times, serif;
+    color: rgba(34, 34, 79, 0.756);
+   }
+    .para #DESC {
+        padding-left: 25%;
+        padding-right: 20%;
+        text-align: center;
+        font-weight: 500;
+        font-style:initial;
+        font-family:'Times New Roman', Times, serif;
+    }
+
+    .score {
+        padding-left: 40%;
+        /* border: 1px solid red; */
+        width: 20%;
+        text-align: center;
+    }
+
+    .rank {
+        width: 15%;
+        /* border: 1px solid red; */
+        padding: 20px;
+    }
+    .rank h1{
+      font-size: 60px;
+      font-weight: 700;
+      font-style: initial;
+      font-family:'Times New Roman', Times, serif;
+      color:rgba(34, 34, 79, 0.756);
+    }
+    .rank p{
+        font-size: 20px;
+        color: rgba(34, 34, 79, 0.756);
+    }
+}
+
+/* Small Devices (Tablets and Smaller Laptops) */
+
+@media screen and (min-width:576px) and (max-width:991px) {
+    .wordmap {
+        background-image: url("../../Assest//img/map.png");
+        background-color: #f2f2f2;
+        padding-top: 10%;
+        padding-bottom: 10%;
+
+        /* border: 1px solid red; */
+    }
+
+    .heading h1 {
+        text-align: center;
+        font-size: 50px;
+        font-weight: 700;
+        font-style:initial;
+        font-family:'Times New Roman', Times, serif;
+        color: rgba(72, 72, 211, 0.981);
+    }
+   .heading p{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 800;
+    font-style:initial;
+    font-family:'Times New Roman', Times, serif;
+    color: rgba(34, 34, 79, 0.756);
+   }
+    .para #DESC {
+        padding-left: 25%;
+        padding-right: 20%;
+        text-align: center;
+        font-weight: 500;
+        font-style:initial;
+        font-family:'Times New Roman', Times, serif;
+    }
+
+    .score {
+        padding-left: 40%;
+        /* border: 1px solid red; */
+        width: 20%;
+        text-align: center;
+    }
+
+    .rank {
+        width: 15%;
+        /* border: 1px solid red; */
+        padding: 20px;
+    }
+    .rank h1{
+      font-size: 60px;
+      font-weight: 700;
+      font-style: initial;
+      font-family:'Times New Roman', Times, serif;
+      color:rgba(34, 34, 79, 0.756);
+    }
+    .rank p{
+        font-size: 20px;
+        color: rgba(34, 34, 79, 0.756);
+    }
+}
+
+/* large Devices (Destops) */
+@media screen and (min-width:992px) and (max-width:1199px) {
+    .wordmap {
+        background-image: url("../../Assest//img/map.png");
+        background-color: #f2f2f2;
+        padding-top: 10%;
+        padding-bottom: 10%;
+
+        /* border: 1px solid red; */
+    }
+
+    .heading h1 {
+        text-align: center;
+        font-size: 50px;
+        font-weight: 700;
+        font-style:initial;
+        font-family:'Times New Roman', Times, serif;
+        color: rgba(72, 72, 211, 0.981);
+    }
+   .heading p{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 800;
+    font-style:initial;
+    font-family:'Times New Roman', Times, serif;
+    color: rgba(34, 34, 79, 0.756);
+   }
+    .para #DESC {
+        padding-left: 25%;
+        padding-right: 20%;
+        text-align: center;
+        font-weight: 500;
+        font-style:initial;
+        font-family:'Times New Roman', Times, serif;
+    }
+
+    .score {
+        display: flex;
+        justify-content: space-evenly;
+        padding: 20px;
+        /* border: 1px solid red; */
+        display: flex;
+    }
+
+    .rank {
+        width: 15%;
+        /* border: 1px solid red; */
+        padding: 20px;
+    }
+    .rank h1{
+      font-size: 60px;
+      font-weight: 700;
+      font-style: initial;
+      font-family:'Times New Roman', Times, serif;
+      color:rgba(34, 34, 79, 0.756);
+    }
+    .rank p{
+        font-size: 20px;
+        color: rgba(34, 34, 79, 0.756);
+    }
+}
+
+/* Extra large devices (high resolution monitors) */
+
+@media screen and (min-width: 1199px) {
+    .wordmap {
+        background-image: url("../../Assest//img/map.png");
+        background-color: #f2f2f2;
+        padding-top: 10%;
+        padding-bottom: 10%;
+
+        /* border: 1px solid red; */
+    }
+
+    .heading h1 {
+        text-align: center;
+        font-size: 50px;
+        font-weight: 700;
+        font-style:initial;
+        font-family:'Times New Roman', Times, serif;
+        color: rgba(72, 72, 211, 0.981);
+    }
+   .heading p{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 800;
+    font-style:initial;
+    font-family:'Times New Roman', Times, serif;
+    color: rgba(34, 34, 79, 0.756);
+   }
+    .para #DESC {
+        padding-left: 25%;
+        padding-right: 20%;
+        text-align: center;
+        font-weight: 500;
+        font-style:initial;
+        font-family:'Times New Roman', Times, serif;
+    }
+
+    .score {
+        display: flex;
+        justify-content: space-evenly;
+        padding: 20px;
+        /* border: 1px solid red; */
+        display: flex;
+    }
+
+    .rank {
+        width: 15%;
+        /* border: 1px solid red; */
+        padding: 20px;
+    }
+    .rank h1{
+      font-size: 60px;
+      font-weight: 700;
+      font-style: initial;
+      font-family:'Times New Roman', Times, serif;
+      color:rgba(34, 34, 79, 0.756);
+    }
+    .rank p{
+        font-size: 20px;
+        color: rgba(34, 34, 79, 0.756);
+    }
+}
+
+/* <===========>
+   ourservices
+<============>*/
+
+
+/* Extra small Device (Mobile Phone) */
+/* @media screen and (max-width: 575px) {
+    .servercard{
+        float: right;
+        border: 1px solid red;
+      }
+      
+      .Sub_servicesCard{
+          padding: 10px;
+          width: 80%;
+          margin: 20px;
+          border:  1px solid whitesmoke;
+          box-shadow: 10px 10px 10px whitesmoke;
+          border-radius: 10px;
+      }
+      .Sub_servicesCard img{
+          width: 100%;
+          border-radius: 5px;
+      }
+      
+} */
+
+/* Small Devices (Tablets and Smaller Laptops) */
+
+@media screen and (min-width:576px) and (max-width:991px) {
+.servercard{
+    margin: 10px;
+  /* display: flex; */
+ 
+}
+.Sub2_seervercard{
+    float: left;
+    margin: 10px;
+    border: 1px solid red;
+}
+
+.Sub_servicesCard{
+    /* float:right; */
+    border: 1px solid rgb(44, 10, 239);
+    padding: 10px;
+    width: 50%;
+    margin: 20px;
+    /* border:  1px solid whitesmoke; */
+    box-shadow: 10px 10px 10px whitesmoke;
+    border-radius: 10px;
+}
+.Sub_servicesCard img{
+    width: 100%;
+    border-radius: 5px;
+}
+
+}
+
+/* large Devices (Destops) */
+@media screen and (min-width:992px) and (max-width:1199px) {
+    .ourservices{
+        border: 2px solid red;
+    }
+    .servercard{
+      
+       /* display: flex;
+       flex-wrap:wrap;
+        border: 1px solid red; */
+        float: left;
+      }
+      
+      .Sub_servicesCard{
+   
+          /* padding: 10px; */
+          width: 30%;
+          /* margin: 20px; */
+          border:  2px solid whitesmoke;
+          box-shadow: 10px 10px 10px whitesmoke;
+          border-radius: 10px;
+      }
+      .Sub_servicesCard img{
+          width: 100%;
+          border-radius: 5px;
+      }
+}
+
+/* Extra large devices (high resolution monitors) */
+
+@media screen and (min-width: 1199px) {
+
+}
