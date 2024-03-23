@@ -1104,3 +1104,61 @@ a{
     box-shadow: inset 0px 5px 5px 0px #fff;
     /* text-decoration: underline; */
 }
+
+
+
+.main-button {
+    padding: 40px 0px;
+}
+
+.child-button {
+    padding: 10px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#view-button{
+    padding: 17px 40px;
+    /* border-style: none; */
+    border: 2px solid yellow;
+    cursor: pointer;
+    border-radius: 5px;
+    color: white;
+    background: black;
+}
+
+#view-button:hover{
+    background-color: yellow;
+    color: black;
+    border: 2px solid black;
+}
+
+
+section.Howwork {
+    padding: 20px 170px;
+    display: flex;
+    justify-content: center;
+}
+
+.Sub_howwork {
+    padding: 20px 20px;
+    /* display: flex; */
+}
+
+.ClientSays {
+    padding: 0px 150px;
+}
+
+.ClientSays, p ,h1{
+    text-align: center;
+}
+
+.review-cointainer {
+    padding: 17px 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.Card_client {
+    padding: 27px 20px;
+}
