@@ -211,7 +211,11 @@ const home = () => {
             </div>
           </div>
         </div>
-        <button>VIEW MORE</button>
+       <div className="main-button">
+        <div className="child-button">
+           <button id="view-button">VIEW MORE</button>
+        </div>
+       </div>
       </section>
 
       <section className="Howwork">
@@ -257,6 +261,7 @@ const home = () => {
       <section className="ClientSays">
         <p>Testimonials</p>
         <h1>What Our Client Says</h1>
+        <div className="review-cointainer">
         <div className="Card_client">
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt
@@ -286,6 +291,7 @@ const home = () => {
           </p>
           <h3>Ankit Yadav</h3>
           <p>Customer Representative</p>
+        </div>
         </div>
       </section>
     </>
