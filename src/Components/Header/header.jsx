@@ -16,16 +16,16 @@ const Header = () => {
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="me-auto">
               <Nav.Link id="font" >
-                <Link to="/">Home</Link>
+                <Link id="link" to="/">Home</Link>
               </Nav.Link>
               <Nav.Link id="font">
-              <Link to="/about">About</Link>
+              <Link id="link" to="/about">About</Link>
               </Nav.Link>
               <Nav.Link id="font">
-              <Link to="/services">Services</Link>
+              <Link id="link" to="/services">Services</Link>
               </Nav.Link>
               <Nav.Link id="font"> 
-              <Link to="/contact">Contact Us</Link>
+              <Link id="link" to="/contact">Contact Us</Link>
               </Nav.Link>
             </Nav>
             <Nav>

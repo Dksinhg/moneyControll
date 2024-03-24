@@ -426,6 +426,12 @@ Aboout Pages
     }
 }
 
+
+.aboutus button:hover {
+  
+    background-color: yellow;
+    color: black;
+}
 /* <==============>  
 Services pages 
 <========> */
@@ -1120,7 +1126,7 @@ a{
 #view-button{
     padding: 17px 40px;
     /* border-style: none; */
-    border: 2px solid yellow;
+    /* border: 2px solid yellow; */
     cursor: pointer;
     border-radius: 5px;
     color: white;
