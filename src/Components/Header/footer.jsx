@@ -9,6 +9,8 @@ import { CgMail } from "react-icons/cg";
 const footer = () => {
   return (
     <>
+    <div className="Parnet-footer">
+      <div className="child-footer">
       <div className="footerContainer">
         <div className="gridfooter">
           <img src={logo} alt="" style={{ width: 200 }} />
@@ -136,6 +138,9 @@ const footer = () => {
           </div>
         </div>
       </div>
+      </div>
+    </div>
+     
     </>
   );
 };
