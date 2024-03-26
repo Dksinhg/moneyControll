@@ -12,7 +12,9 @@ const home = () => {
   return (
     <>
       <section className="carousel">
-        <h1>Small Investment Big Returns</h1>
+        <div className="Parent_carousel">
+          <div className="child_carousel">
+          <h1>Small Investment Big Returns</h1>
         <p>
           Tap into the world’s market and explore endless trading opportunities
           with us and Set aside financial worry. Delivered greater returns with
@@ -20,6 +22,8 @@ const home = () => {
         </p>
         <div className="carousel_button">
           <button>Discover more </button>
+        </div>
+          </div>
         </div>
       </section>
 
