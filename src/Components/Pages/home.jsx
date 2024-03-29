@@ -14,15 +14,15 @@ const home = () => {
       <section className="carousel">
         <div className="Parent_carousel">
           <div className="child_carousel">
-          <h1>Small Investment Big Returns</h1>
-        <p>
-          Tap into the world’s market and explore endless trading opportunities
-          with us and Set aside financial worry. Delivered greater returns with
-          100% Capital Preservation
-        </p>
-        <div className="carousel_button">
-          <button>Discover more </button>
-        </div>
+            <h1>Small Investment Big Returns</h1>
+            <p>
+              Tap into the world’s market and explore endless trading
+              opportunities with us and Set aside financial worry. Delivered
+              greater returns with 100% Capital Preservation
+            </p>
+            <div className="carousel_button">
+              <button>Discover more </button>
+            </div>
           </div>
         </div>
       </section>
@@ -74,7 +74,10 @@ const home = () => {
               programs.
             </p>
           </div>
-          <button>KNOW MORE</button>
+
+          <div className="know-more">
+            <button>KNOW MORE</button>
+          </div>
         </div>
       </section>
 
@@ -215,11 +218,11 @@ const home = () => {
             </div>
           </div>
         </div>
-       <div className="main-button">
-        <div className="child-button">
-           <button id="view-button">VIEW MORE</button>
+        <div className="main-button">
+          <div className="child-button">
+            <button id="view-button">VIEW MORE</button>
+          </div>
         </div>
-       </div>
       </section>
 
       <section className="Howwork">
@@ -266,36 +269,36 @@ const home = () => {
         <p>Testimonials</p>
         <h1>What Our Client Says</h1>
         <div className="review-cointainer">
-        <div className="Card_client">
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt
-            delectus saepe perferendis sequi, doloremque maiores! Eius, animi
-            tenetur explicabo in eaque quis, ipsum hic quo dolorum minima quas
-            excepturi ex.
-          </p>
-          <h3>Ankit Yadav</h3>
-          <p>Customer Representative</p>
-        </div>
-        <div className="Card_client">
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt
-            delectus saepe perferendis sequi, doloremque maiores! Eius, animi
-            tenetur explicabo in eaque quis, ipsum hic quo dolorum minima quas
-            excepturi ex.
-          </p>
-          <h3>Ankit Yadav</h3>
-          <p>Customer Representative</p>
-        </div>
-        <div className="Card_client">
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt
-            delectus saepe perferendis sequi, doloremque maiores! Eius, animi
-            tenetur explicabo in eaque quis, ipsum hic quo dolorum minima quas
-            excepturi ex.
-          </p>
-          <h3>Ankit Yadav</h3>
-          <p>Customer Representative</p>
-        </div>
+          <div className="Card_client">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt
+              delectus saepe perferendis sequi, doloremque maiores! Eius, animi
+              tenetur explicabo in eaque quis, ipsum hic quo dolorum minima quas
+              excepturi ex.
+            </p>
+            <h3>Ankit Yadav</h3>
+            <p>Customer Representative</p>
+          </div>
+          <div className="Card_client">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt
+              delectus saepe perferendis sequi, doloremque maiores! Eius, animi
+              tenetur explicabo in eaque quis, ipsum hic quo dolorum minima quas
+              excepturi ex.
+            </p>
+            <h3>Ankit Yadav</h3>
+            <p>Customer Representative</p>
+          </div>
+          <div className="Card_client">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt
+              delectus saepe perferendis sequi, doloremque maiores! Eius, animi
+              tenetur explicabo in eaque quis, ipsum hic quo dolorum minima quas
+              excepturi ex.
+            </p>
+            <h3>Ankit Yadav</h3>
+            <p>Customer Representative</p>
+          </div>
         </div>
       </section>
     </>
