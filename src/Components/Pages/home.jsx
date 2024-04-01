@@ -7,6 +7,7 @@ import HowWeWork from "../../Assest/img/how-do-we-work.webp";
 import { MdLockOutline } from "react-icons/md";
 import { FaExplosion } from "react-icons/fa6";
 import { RiShakeHandsLine } from "react-icons/ri";
+import { HiDocumentSearch } from "react-icons/hi";
 
 const home = () => {
   return (
@@ -227,13 +228,17 @@ const home = () => {
 
       <section className="Howwork">
         <div className="Sub_howwork">
+          <div className="sub_howwrokimg">
           <img src={HowWeWork} alt="" />
+          </div>
         </div>
         <div className="Sub_howwork">
           <p>How We work</p>
           <h3>3 Steps For Financial Freedom</h3>
           <div className="card_howwork">
-            <div className="sub_cardHowWork">ican</div>
+            <div className="sub_cardHowWork">
+            <HiDocumentSearch />
+            </div>
             <div className="sub_cardHowWork">
               <h3>Investment Contract</h3>
               <p>
@@ -243,7 +248,9 @@ const home = () => {
             </div>
           </div>
           <div className="card_howwork">
-            <div className="sub_cardHowWork">ican</div>
+            <div className="sub_cardHowWork">
+            <HiDocumentSearch />
+            </div>
             <div className="sub_cardHowWork">
               <h3>Investment Contract</h3>
               <p>
@@ -253,7 +260,9 @@ const home = () => {
             </div>
           </div>
           <div className="card_howwork">
-            <div className="sub_cardHowWork">ican</div>
+            <div className="sub_cardHowWork">
+            <HiDocumentSearch />
+            </div>
             <div className="sub_cardHowWork">
               <h3>Investment Contract</h3>
               <p>
