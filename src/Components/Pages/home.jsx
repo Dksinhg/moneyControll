@@ -275,8 +275,8 @@ const home = () => {
       </section>
 
       <section className="ClientSays">
-        <p>Testimonials</p>
-        <h1>What Our Client Says</h1>
+        <p id="testtt">Testimonials</p>
+        <h1 id="testtt">What Our Client Says</h1>
         <div className="review-cointainer">
           <div className="Card_client">
             <p>

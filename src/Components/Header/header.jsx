@@ -41,7 +41,7 @@ const Header = () => {
                   </Nav.Link>
                 </Nav>
                 <Nav>
-                  <Nav.Link id="font" href="#deets">
+                  <Nav.Link id="font" href="/contact">
                     <button> Invest now</button>
                   </Nav.Link>
                 </Nav>
