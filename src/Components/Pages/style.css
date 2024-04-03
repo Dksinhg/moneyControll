@@ -256,7 +256,7 @@ Aboout Pages
         width: 40%;
         font-size: 19px;
         font-weight: 400;
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serifS;
+        font-family: sans-serif;
         border: none;
         background-color: #040E1A;
         color: white;
@@ -309,7 +309,7 @@ Aboout Pages
         width: 40%;
         font-size: 19px;
         font-weight: 400;
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serifS;
+        font-family: sans-serif;
         border: none;
         background-color: #040E1A;
         color: white;
@@ -361,7 +361,7 @@ Aboout Pages
         width: 40%;
         font-size: 19px;
         font-weight: 400;
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serifS;
+        font-family: sans-serif;
         border: none;
         background-color: #040E1A;
         color: white;
@@ -419,7 +419,7 @@ Aboout Pages
         width: 40%;
         font-size: 19px;
         font-weight: 400;
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serifS;
+        font-family: sans-serif;
         border: none;
         background-color: #040E1A;
         color: white;
@@ -460,9 +460,9 @@ Services pages
     }
 
     .card_services #desc {
-        font-size: 18px;
+        font-size: 25px;
         padding: 5px;
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-family:sans-serif;
     }
 
     .subCard_services {
@@ -494,7 +494,7 @@ Services pages
     .subcard_desc h4,
     #descp {
         padding: 7px;
-        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-family:sans-serif;
 
     }
 
@@ -530,9 +530,9 @@ Services pages
     }
 
     .card_services #desc {
-        font-size: 18px;
+        font-size: 25px;
         padding: 5px;
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-family: sans-serif;
     }
 
     .subCard_services {
@@ -564,7 +564,7 @@ Services pages
     .subcard_desc h4,
     #descp {
         padding: 7px;
-        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-family: sans-serif;
 
     }
 
@@ -596,9 +596,9 @@ Services pages
     }
 
     .card_services #desc {
-        font-size: 18px;
+        font-size: 25px;
         padding: 5px;
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-family: sans-serif;
     }
 
     .subCard_services {
@@ -628,7 +628,7 @@ Services pages
     .subcard_desc h4,
     #descp {
         padding: 7px;
-        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+        font-family: sans-serif
             /* border: 1px solid red; */
     }
 
@@ -661,9 +661,9 @@ Services pages
     }
 
     .card_services #desc {
-        font-size: 18px;
+        font-size: 25px;
         padding: 5px;
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-family: sans-serif;
     }
 
     .subCard_services {
@@ -693,7 +693,7 @@ Services pages
     .subcard_desc h4,
     #descp {
         /* padding: 7px; */
-        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+        font-family: sans-serif
             /* border: 1px solid red; */
     }
 
@@ -724,7 +724,7 @@ Services pages
         font-size: 50px;
         font-weight: 700;
         font-style:initial;
-        font-family:'Times New Roman', Times, serif;
+        font-family:sans-serif;
         color: rgba(72, 72, 211, 0.981);
     }
    .heading p{
@@ -732,7 +732,7 @@ Services pages
     font-size: 20px;
     font-weight: 800;
     font-style:initial;
-    font-family:'Times New Roman', Times, serif;
+    font-family:sans-serif;
     color: rgba(34, 34, 79, 0.756);
    }
     .para #DESC {
@@ -741,7 +741,7 @@ Services pages
         text-align: center;
         font-weight: 500;
         font-style:initial;
-        font-family:'Times New Roman', Times, serif;
+        font-family:sans-serif;
     }
 
     .score {
@@ -1171,7 +1171,7 @@ section.Howwork {
 
 .know-more {
     display: flex;
-    justify-content: center;
+    justify-content: left;
     align-items: center;
 }
 /* 
@@ -1185,12 +1185,12 @@ body {
 .container-xl {
     display: flex;
     justify-content: space-between;
-    max-width: 1150px;
+    max-width: 1200px;
     width: 100%;
     margin: 0 auto;
     padding: 20px;
     background-color: #ffffff;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); */
 }
 .sub-container {
     display: flex;
@@ -1241,10 +1241,10 @@ body {
     background-color: #f9f9f9;
     text-align: center;
 }
-.contact-info h2 {
+/* .contact-info h2 {
     font-size: 24px;
-    margin-bottom: 20px;
-}
+    margin-bottom: 20px !important;
+} */
 .contact-info p {
     font-size: 16px;
     margin-bottom: 10px;
@@ -1261,4 +1261,30 @@ body {
 
 .sub_cardHowWork {
     padding: 0px 15px;
+}
+
+.information {
+    padding: 20px 0px;
+}
+
+.information #hhh{
+     padding: 40px 0px;
+    font-size: 48px;
+    font-weight: 500;
+    font-family: sans-serif;
+}
+
+.subchild-info{
+    padding: 30px 0px;
+}
+
+#ppp{
+    font-size: 20px;
+    font-weight: 400;
+    font-family: sans-serif;
+}
+
+#testtt{
+    display: flex;
+    justify-content: center;
 }
