@@ -453,7 +453,7 @@ Services pages
     }
 
     .card_services h1 {
-        font-size: 60px;
+        /* font-size: 60px; */
         font-weight: 700;
         font-style: inherit;
         color: black;
@@ -523,7 +523,7 @@ Services pages
     }
 
     .card_services h1 {
-        font-size: 60px;
+        /* font-size: 60px; */
         font-weight: 700;
         font-style: inherit;
         color: black;
@@ -589,7 +589,7 @@ Services pages
     }
 
     .card_services h1 {
-        font-size: 60px;
+        /* font-size: 60px; */
         font-weight: 700;
         font-style: inherit;
         color: black;
@@ -654,7 +654,7 @@ Services pages
     }
 
     .card_services h1 {
-        font-size: 60px;
+        /* font-size: 60px; */
         font-weight: 700;
         font-style: inherit;
         color: black;
@@ -713,8 +713,8 @@ Services pages
     .wordmap {
         background-image: url("../../Assest//img/map.png");
         background-color: #f2f2f2;
-        padding-top: 10%;
-        padding-bottom: 10%;
+        /* padding-top: 10%;
+        padding-bottom: 10%; */
 
         /* border: 1px solid red; */
     }
@@ -728,6 +728,7 @@ Services pages
         color: rgba(72, 72, 211, 0.981);
     }
    .heading p{
+    padding: 20px 0px 0px 0px;
     text-align: center;
     font-size: 20px;
     font-weight: 800;
@@ -775,8 +776,8 @@ Services pages
     .wordmap {
         background-image: url("../../Assest//img/map.png");
         background-color: #f2f2f2;
-        padding-top: 10%;
-        padding-bottom: 10%;
+        /* padding-top: 10%;
+        padding-bottom: 10%; */
 
         /* border: 1px solid red; */
     }
@@ -790,6 +791,7 @@ Services pages
         color: rgba(72, 72, 211, 0.981);
     }
    .heading p{
+    padding: 20px 0px 0px 0px;
     text-align: center;
     font-size: 20px;
     font-weight: 800;
@@ -836,8 +838,8 @@ Services pages
     .wordmap {
         background-image: url("../../Assest//img/map.png");
         background-color: #f2f2f2;
-        padding-top: 10%;
-        padding-bottom: 10%;
+        /* padding-top: 10%;
+        padding-bottom: 10%; */
 
         /* border: 1px solid red; */
     }
@@ -851,6 +853,7 @@ Services pages
         color: rgba(72, 72, 211, 0.981);
     }
    .heading p{
+    padding: 20px 0px 0px 0px;
     text-align: center;
     font-size: 20px;
     font-weight: 800;
@@ -899,8 +902,8 @@ Services pages
     .wordmap {
         background-image: url("../../Assest//img/map.png");
         background-color: #f2f2f2;
-        padding-top: 10%;
-        padding-bottom: 10%;
+        /* padding-top: 10%;
+        padding-bottom: 10%; */
 
         /* border: 1px solid red; */
     }
@@ -914,6 +917,7 @@ Services pages
         color: rgba(72, 72, 211, 0.981);
     }
    .heading p{
+    padding: 20px 0px 0px 0px;
     text-align: center;
     font-size: 20px;
     font-weight: 800;
@@ -1019,7 +1023,7 @@ Services pages
 }
 
 /* large Devices (Destops) */
-@media screen and (min-width:992px) and (max-width:1199px) {
+/* @media screen and (min-width:992px) and (max-width:1199px) {
     .ourservices{
         border: 2px solid red;
     }
@@ -1029,14 +1033,14 @@ Services pages
        /* display: flex;
        flex-wrap:wrap;
         border: 1px solid red; */
-        /* float: left; */
+        /* float: left;
       }
       
       .Sub_servicesCard{
    
-          /* padding: 10px; */
+          padding: 10px;
           width: 30%;
-          /* margin: 20px; */
+          margin: 20px;
           border:  2px solid whitesmoke;
           box-shadow: 10px 10px 10px whitesmoke;
           border-radius: 10px;
@@ -1045,7 +1049,7 @@ Services pages
           width: 100%;
           border-radius: 5px;
       }
-}
+} */
 
 /* Extra large devices (high resolution monitors) */
 
@@ -1099,7 +1103,7 @@ a{
 
 .sub_card {
     max-width: 500px;
-    height: 30vh;
+    /* height: 30vh; */
     width: 100%;
     position: relative;
     left: 40px;
@@ -1255,6 +1259,7 @@ body {
 }
 
 .card_howwork {
+    padding: 20px 0px 0px 0px;
     display: flex;
     justify-content: center;
 }
@@ -1283,8 +1288,57 @@ body {
     font-weight: 400;
     font-family: sans-serif;
 }
+#testtt1{
+    display: flex;
+    justify-content: center;
+    color: blue;
+    font-weight: 500;
+    font-family: sans-serif;
+}
 
 #testtt{
     display: flex;
     justify-content: center;
+    font-weight: 500;
+    font-family: sans-serif;
+}
+
+#icannn{
+    padding: 15px 0px;
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+}
+#_50000{
+    padding: 10px 0px;
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+}
+#mini{
+    padding: 10px 0px;
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+}
+#icccan1 {
+    height: 60px;
+}
+
+#icccan{
+    /* padding: 10px 10px; */
+    width: 42px;
+}
+#pp22{
+    text-align: center;
+    color: blue;
+    font-weight: 500;
+    font-family: sans-serif;
+}
+.w-6{
+    height: 50px;
+}
+
+.subword {
+    padding: 20px 0px 0px 0px;
 }
