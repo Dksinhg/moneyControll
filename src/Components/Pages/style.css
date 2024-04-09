@@ -1216,7 +1216,8 @@ body {
     margin-bottom: 10px;
 }
 .form input[type="text"],
-.form input[type="email"] {
+.form input[type="email"],
+.form input[type="number"] {
     width: 100%;
     padding: 10px;
     margin-bottom: 20px;
