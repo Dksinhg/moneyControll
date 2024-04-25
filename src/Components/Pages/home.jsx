@@ -1,5 +1,6 @@
 import React from "react";
 import "./style.css";
+import "../../response.css"
 import aboutPic from "../../Assest/img/OUR-PURPOSE.webp";
 import servicePic from "../../Assest/img/female-psychiatrist-talking-with-patient-and-showi-2021-09-03-14-11-19-35TG52D.jpg";
 import fincial from "../../Assest/img/Financial-Planning.webp";
@@ -207,7 +208,7 @@ const home = () => {
 
       <section className="ourservices">
         <div className="heading">
-          <p>Our Services</p>
+          <p id="testtt1">Our Services</p>
           <h1> We Ensure Professional Services </h1>
         </div>
         <div className="servercard">
