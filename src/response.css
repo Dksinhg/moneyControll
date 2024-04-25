@@ -1,0 +1,48 @@
+@media screen and (max-width: 550px ){
+    section.Howwork {
+        padding: 20px 20px;
+        display: flex;
+        flex-direction: column;
+    }
+    .sub_howwrokimg img {
+        width: 15em;
+        height: 80vh;
+    }
+}
+
+@media screen and (max-width: 750px ){
+    section.Howwork {
+        padding: 20px 20px;
+        display: flex;
+        flex-direction: column;
+    
+    }
+    .sub_howwrokimg img {
+        width: 20em;
+        height: 80vh;
+    }
+}
+
+@media screen and (max-width: 990px ){
+    section.Howwork {
+        padding: 20px 20px;
+        display: flex;
+        flex-direction: column;
+    }
+    .sub_howwrokimg img {
+        width: 25em;
+        height: 80vh;
+    }
+}
+
+@media screen and (max-width: 1200px ){
+    section.Howwork {
+        padding: 20px 20px;
+        display: flex;
+        flex-direction: column;
+    }
+    .sub_howwrokimg img {
+        width: 30em;
+        height: 80vh;
+    }
+}

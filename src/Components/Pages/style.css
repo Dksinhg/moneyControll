@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
@@ -18,7 +18,7 @@ home components
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
-        width: 200%;
+        width: 100%;
         height: 90vh;
 
     }
@@ -428,10 +428,11 @@ Aboout Pages
 
 
 .aboutus button:hover {
-  
+
     background-color: yellow;
     color: black;
 }
+
 /* <==============>  
 Services pages 
 <========> */
@@ -462,7 +463,7 @@ Services pages
     .card_services #desc {
         font-size: 25px;
         padding: 5px;
-        font-family:sans-serif;
+        font-family: sans-serif;
     }
 
     .subCard_services {
@@ -494,7 +495,7 @@ Services pages
     .subcard_desc h4,
     #descp {
         padding: 7px;
-        font-family:sans-serif;
+        font-family: sans-serif;
 
     }
 
@@ -723,26 +724,28 @@ Services pages
         text-align: center;
         font-size: 50px;
         font-weight: 700;
-        font-style:initial;
-        font-family:sans-serif;
+        font-style: initial;
+        font-family: sans-serif;
         color: rgba(72, 72, 211, 0.981);
     }
-   .heading p{
-    padding: 20px 0px 0px 0px;
-    text-align: center;
-    font-size: 20px;
-    font-weight: 800;
-    font-style:initial;
-    font-family:sans-serif;
-    color: rgba(34, 34, 79, 0.756);
-   }
+
+    .heading p {
+        padding: 20px 0px 0px 0px;
+        text-align: center;
+        font-size: 20px;
+        font-weight: 800;
+        font-style: initial;
+        font-family: sans-serif;
+        color: rgba(34, 34, 79, 0.756);
+    }
+
     .para #DESC {
         padding-left: 25%;
         padding-right: 20%;
         text-align: center;
         font-weight: 500;
-        font-style:initial;
-        font-family:sans-serif;
+        font-style: initial;
+        font-family: sans-serif;
     }
 
     .score {
@@ -757,14 +760,16 @@ Services pages
         /* border: 1px solid red; */
         padding: 20px;
     }
-    .rank h1{
-      font-size: 60px;
-      font-weight: 700;
-      font-style: initial;
-      font-family:'Times New Roman', Times, serif;
-      color:rgba(34, 34, 79, 0.756);
+
+    .rank h1 {
+        font-size: 60px;
+        font-weight: 700;
+        font-style: initial;
+        font-family: 'Times New Roman', Times, serif;
+        color: rgba(34, 34, 79, 0.756);
     }
-    .rank p{
+
+    .rank p {
         font-size: 20px;
         color: rgba(34, 34, 79, 0.756);
     }
@@ -786,26 +791,28 @@ Services pages
         text-align: center;
         font-size: 50px;
         font-weight: 700;
-        font-style:initial;
-        font-family:'Times New Roman', Times, serif;
+        font-style: initial;
+        font-family: 'Times New Roman', Times, serif;
         color: rgba(72, 72, 211, 0.981);
     }
-   .heading p{
-    padding: 20px 0px 0px 0px;
-    text-align: center;
-    font-size: 20px;
-    font-weight: 800;
-    font-style:initial;
-    font-family:'Times New Roman', Times, serif;
-    color: rgba(34, 34, 79, 0.756);
-   }
+
+    .heading p {
+        padding: 20px 0px 0px 0px;
+        text-align: center;
+        font-size: 20px;
+        font-weight: 800;
+        font-style: initial;
+        font-family: 'Times New Roman', Times, serif;
+        color: rgba(34, 34, 79, 0.756);
+    }
+
     .para #DESC {
         padding-left: 25%;
         padding-right: 20%;
         text-align: center;
         font-weight: 500;
-        font-style:initial;
-        font-family:'Times New Roman', Times, serif;
+        font-style: initial;
+        font-family: 'Times New Roman', Times, serif;
     }
 
     .score {
@@ -820,14 +827,16 @@ Services pages
         /* border: 1px solid red; */
         padding: 20px;
     }
-    .rank h1{
-      font-size: 60px;
-      font-weight: 700;
-      font-style: initial;
-      font-family:'Times New Roman', Times, serif;
-      color:rgba(34, 34, 79, 0.756);
+
+    .rank h1 {
+        font-size: 60px;
+        font-weight: 700;
+        font-style: initial;
+        font-family: 'Times New Roman', Times, serif;
+        color: rgba(34, 34, 79, 0.756);
     }
-    .rank p{
+
+    .rank p {
         font-size: 20px;
         color: rgba(34, 34, 79, 0.756);
     }
@@ -848,26 +857,28 @@ Services pages
         text-align: center;
         font-size: 50px;
         font-weight: 700;
-        font-style:initial;
-        font-family:'Times New Roman', Times, serif;
+        font-style: initial;
+        font-family: 'Times New Roman', Times, serif;
         color: rgba(72, 72, 211, 0.981);
     }
-   .heading p{
-    padding: 20px 0px 0px 0px;
-    text-align: center;
-    font-size: 20px;
-    font-weight: 800;
-    font-style:initial;
-    font-family:'Times New Roman', Times, serif;
-    color: rgba(34, 34, 79, 0.756);
-   }
+
+    .heading p {
+        padding: 20px 0px 0px 0px;
+        text-align: center;
+        font-size: 20px;
+        font-weight: 800;
+        font-style: initial;
+        font-family: 'Times New Roman', Times, serif;
+        color: rgba(34, 34, 79, 0.756);
+    }
+
     .para #DESC {
         padding-left: 25%;
         padding-right: 20%;
         text-align: center;
         font-weight: 500;
-        font-style:initial;
-        font-family:'Times New Roman', Times, serif;
+        font-style: initial;
+        font-family: 'Times New Roman', Times, serif;
     }
 
     .score {
@@ -883,14 +894,16 @@ Services pages
         /* border: 1px solid red; */
         padding: 20px;
     }
-    .rank h1{
-      font-size: 60px;
-      font-weight: 700;
-      font-style: initial;
-      font-family:'Times New Roman', Times, serif;
-      color:rgba(34, 34, 79, 0.756);
+
+    .rank h1 {
+        font-size: 60px;
+        font-weight: 700;
+        font-style: initial;
+        font-family: 'Times New Roman', Times, serif;
+        color: rgba(34, 34, 79, 0.756);
     }
-    .rank p{
+
+    .rank p {
         font-size: 20px;
         color: rgba(34, 34, 79, 0.756);
     }
@@ -912,26 +925,28 @@ Services pages
         text-align: center;
         font-size: 50px;
         font-weight: 700;
-        font-style:initial;
-        font-family:'Times New Roman', Times, serif;
+        font-style: initial;
+        font-family: 'Times New Roman', Times, serif;
         color: rgba(72, 72, 211, 0.981);
     }
-   .heading p{
-    padding: 20px 0px 0px 0px;
-    text-align: center;
-    font-size: 20px;
-    font-weight: 800;
-    font-style:initial;
-    font-family:'Times New Roman', Times, serif;
-    color: rgba(34, 34, 79, 0.756);
-   }
+
+    .heading p {
+        padding: 20px 0px 0px 0px;
+        text-align: center;
+        font-size: 20px;
+        font-weight: 800;
+        font-style: initial;
+        font-family: 'Times New Roman', Times, serif;
+        color: rgba(34, 34, 79, 0.756);
+    }
+
     .para #DESC {
         padding-left: 25%;
         padding-right: 20%;
         text-align: center;
         font-weight: 500;
-        font-style:initial;
-        font-family:'Times New Roman', Times, serif;
+        font-style: initial;
+        font-family: 'Times New Roman', Times, serif;
     }
 
     .score {
@@ -947,14 +962,16 @@ Services pages
         /* border: 1px solid red; */
         padding: 20px;
     }
-    .rank h1{
-      font-size: 60px;
-      font-weight: 700;
-      font-style: initial;
-      font-family:'Times New Roman', Times, serif;
-      color:rgba(34, 34, 79, 0.756);
+
+    .rank h1 {
+        font-size: 60px;
+        font-weight: 700;
+        font-style: initial;
+        font-family: 'Times New Roman', Times, serif;
+        color: rgba(34, 34, 79, 0.756);
     }
-    .rank p{
+
+    .rank p {
         font-size: 20px;
         color: rgba(34, 34, 79, 0.756);
     }
@@ -966,74 +983,82 @@ Services pages
 
 
 /* Extra small Device (Mobile Phone) */
-/* @media screen and (max-width: 575px) {
-    .servercard{
-        float: right;
-        border: 1px solid red;
-      }
-      
-      .Sub_servicesCard{
-          padding: 10px;
-          width: 80%;
-          margin: 20px;
-          border:  1px solid whitesmoke;
-          box-shadow: 10px 10px 10px whitesmoke;
-          border-radius: 10px;
-      }
-      .Sub_servicesCard img{
-          width: 100%;
-          border-radius: 5px;
-      }
-      
-} */
+@media screen and (max-width: 575px) {
+    .servercard {
+        /* float: right;
+        border: 1px solid red; */
+    }
+    .Sub2_seervercard {
+        /* padding: 10px 30px 10px 45px; */
+        display: grid;
+        grid-template-columns: auto auto;
+
+    }
+
+    .Sub_servicesCard {
+        padding: 10px;
+    }
+
+    .Sub_servicesCard img {
+        width: 100%;
+        border-radius: 5px;
+    }
+
+}
 
 /* Small Devices (Tablets and Smaller Laptops) */
 
 @media screen and (min-width:576px) and (max-width:991px) {
-.servercard{
-    margin: 10px;
-  /* display: flex; */
- 
-}
-.Sub2_seervercard{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
-    /* float: left;
-    margin: 10px;
-    border: 1px solid red; */
-}
+    .servercard {
+        margin: 10px;
+        /* display: flex; */
+    }
+    .Sub2_seervercard {
+        /* padding: 10px 30px 10px 45px; */
+        display: grid;
+        grid-template-columns: auto auto auto;
 
-.Sub_servicesCard{
-    /* float:right; */
-    border: 1px solid rgb(44, 10, 239);
-    padding: 10px;
-    width: 50%;
-    margin: 20px;
-    /* border:  1px solid whitesmoke; */
-    box-shadow: 10px 10px 10px whitesmoke;
-    border-radius: 10px;
-}
-.Sub_servicesCard img{
-    width: 100%;
-    border-radius: 5px;
-}
+    }
+   .Sub_servicesCard {
+        /* border: 1px solid rgb(44, 10, 239); */
+        padding: 10px;
+        width: 100%;
+        margin: 20px;
+        /* border:  1px solid whitesmoke; */
+        box-shadow: 10px 10px 10px whitesmoke;
+        border-radius: 10px;
+    }
+
+    .Sub_servicesCard img {
+        width: 100%;
+        border-radius: 5px;
+    }
 
 }
 
 /* large Devices (Destops) */
-/* @media screen and (min-width:992px) and (max-width:1199px) {
-    .ourservices{
+@media screen and (min-width:992px) and (max-width:1199px) {
+    .Sub2_seervercard {
+        padding: 10px 30px 10px 45px;
+        display: grid;
+        grid-template-columns: auto auto auto;
+    }
+
+    .Sub_servicesCard img {
+        width: 90%;
+        border-radius: 5px;
+    }
+
+    /* .ourservices{
         border: 2px solid red;
     }
     .servercard{
         position: relative;
         left: 40px;
-       /* display: flex;
+       display: flex;
        flex-wrap:wrap;
-        border: 1px solid red; */
-        /* float: left;
+        border: 1px solid red;
+     float: left;
       }
       
       .Sub_servicesCard{
@@ -1048,8 +1073,8 @@ Services pages
       .Sub_servicesCard img{
           width: 100%;
           border-radius: 5px;
-      }
-} */
+      } */
+}
 
 /* Extra large devices (high resolution monitors) */
 
@@ -1059,7 +1084,8 @@ Services pages
         width: 100%;
         padding: 10px;
     }
-    .Sub_servicesCard img{
+
+    .Sub_servicesCard img {
         width: 100%;
     }
 
@@ -1073,6 +1099,7 @@ Services pages
 
 
 
+
 .me-auto.navbar-nav {
     position: relative;
     left: 248px;
@@ -1081,13 +1108,10 @@ Services pages
     justify-content: center;
 
 }
-a{
+
+a {
     text-decoration: none;
 }
-
-
-
-
 
 
 .card {
@@ -1127,7 +1151,8 @@ a{
     justify-content: center;
     align-items: center;
 }
-#view-button{
+
+#view-button {
     padding: 17px 40px;
     /* border-style: none; */
     /* border: 2px solid yellow; */
@@ -1137,7 +1162,7 @@ a{
     background: black;
 }
 
-#view-button:hover{
+#view-button:hover {
     background-color: yellow;
     color: black;
     border: 2px solid black;
@@ -1159,7 +1184,9 @@ section.Howwork {
     padding: 0px 150px;
 }
 
-.ClientSays, p ,h1{
+.ClientSays,
+p,
+h1 {
     /* text-align: center !important; */
 }
 
@@ -1178,6 +1205,7 @@ section.Howwork {
     justify-content: left;
     align-items: center;
 }
+
 /* 
 
 body {
@@ -1196,25 +1224,30 @@ body {
     background-color: #ffffff;
     /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); */
 }
+
 .sub-container {
     display: flex;
     justify-content: space-between;
     max-width: 1150px;
     width: 100%;
 }
+
 .form {
     flex: 1;
     padding: 20px;
 }
+
 .form h2 {
     font-size: 24px;
     margin-bottom: 20px;
 }
+
 .form label {
     display: block;
     font-weight: bold;
     margin-bottom: 10px;
 }
+
 .form input[type="text"],
 .form input[type="email"],
 .form input[type="number"] {
@@ -1224,6 +1257,7 @@ body {
     border: 1px solid #ccc;
     border-radius: 4px;
 }
+
 .form textarea {
     width: 100%;
     height: 120px;
@@ -1232,6 +1266,7 @@ body {
     border: 1px solid #ccc;
     border-radius: 4px;
 }
+
 .form button {
     background-color: #007bff;
     color: #ffffff;
@@ -1240,12 +1275,14 @@ body {
     border-radius: 4px;
     cursor: pointer;
 }
+
 .contact-info {
     flex: 1;
     padding: 20px;
     background-color: #f9f9f9;
     text-align: center;
 }
+
 /* .contact-info h2 {
     font-size: 24px;
     margin-bottom: 20px !important;
@@ -1254,7 +1291,8 @@ body {
     font-size: 16px;
     margin-bottom: 10px;
 }
-.sub_howwrokimg img{
+
+.sub_howwrokimg img {
     width: 35em;
     height: 80vh;
 }
@@ -1273,73 +1311,94 @@ body {
     padding: 20px 0px;
 }
 
-.information #hhh{
-     padding: 40px 0px;
+.information #hhh {
+    padding: 40px 0px;
     font-size: 48px;
     font-weight: 500;
     font-family: sans-serif;
 }
 
-.subchild-info{
+.subchild-info {
     padding: 30px 0px;
 }
 
-#ppp{
+#ppp {
     font-size: 20px;
     font-weight: 400;
     font-family: sans-serif;
 }
-#testtt1{
+
+/* #testtt1{
     display: flex;
     justify-content: center;
     color: blue;
     font-weight: 500;
     font-family: sans-serif;
-}
+} */
 
-#testtt{
+#testtt {
     display: flex;
     justify-content: center;
     font-weight: 500;
     font-family: sans-serif;
 }
 
-#icannn{
+#icannn {
     padding: 15px 0px;
     display: flex;
     justify-content: center;
     font-size: 30px;
 }
-#_50000{
+
+#_50000 {
     padding: 10px 0px;
     display: flex;
     justify-content: center;
     font-size: 25px;
 }
-#mini{
+
+#mini {
     padding: 10px 0px;
     display: flex;
     justify-content: center;
     font-size: 20px;
 }
+
 #icccan1 {
     height: 60px;
 }
 
-#icccan{
+#icccan {
     /* padding: 10px 10px; */
     width: 42px;
 }
-#pp22{
+
+/* #pp22{
     text-align: center;
     color: blue;
     font-weight: 500;
     font-family: sans-serif;
-}
-.w-6{
+} */
+.w-6 {
     height: 50px;
 }
 
 .subword {
     padding: 20px 0px 0px 0px;
+}
+
+#pp22 {
+    font-size: 25px;
+    font-weight: 700;
+    font-style: normal;
+    color: goldenrod;
+}
+
+#testtt1 {
+    font-size: 25px;
+    font-weight: 700;
+    font-style: normal;
+    color: goldenrod;
+    display: flex;
+    justify-content: center;
 }
