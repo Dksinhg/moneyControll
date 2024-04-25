@@ -186,3 +186,14 @@
         margin-left: 20px;
     }
 }
+
+.getin_footer {
+    padding: 0px 0px 22px 0px;
+    display: grid;
+    grid-template-columns: 3rem 14rem;
+}
+
+.footer-ican {
+    font-size: 20px;
+    color: yellow;
+}
