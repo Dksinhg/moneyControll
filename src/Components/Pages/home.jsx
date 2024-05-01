@@ -30,7 +30,7 @@ const home = () => {
         </div>
       </section>
 
-      <section className="card">
+      {/* <section className="card">
         <div className="sub_card">
           <div>
             <div>
@@ -81,7 +81,7 @@ const home = () => {
             <p id="mini">Year of experience </p>
           </div>
         </div>
-      </section>
+      </section> */}
 
       <section className="about">
         <div className="aboutus">
